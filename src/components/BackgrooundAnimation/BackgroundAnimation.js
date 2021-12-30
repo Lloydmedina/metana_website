@@ -4,7 +4,7 @@ import Image from 'next/image'
 const BackgroundAnimation = () => (
  
  <div>
-   <div style={{width: '100%', height: '100%', position: 'relative'}}>
+   <div style={{width: '80%', height: '80%', position: 'relative'}}>
           <Image
             alt='Metana'
             src='/images/metana_bg.png'

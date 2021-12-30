@@ -8,7 +8,13 @@ import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './Heade
 
 const Header = () =>  (
   <Container>
-    <Div1><Image src='/images/METANA_COIN_LOOP.gif' width={100} height={100}/>     
+    <Div1 style={{width: '80%', height: '80%', position: 'relative'}}>
+      <Image 
+       alt='Metana'
+       
+       layout='fill'
+       objectFit='contain'
+      src='/images/METANA_COIN_LOOP.gif'/>     
     </Div1>
     <Div2>
     <li>
