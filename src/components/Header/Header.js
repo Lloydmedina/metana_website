@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
-import { AiFillAlert, AiFillFacebook, AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillMeh, AiFillTwitterCircle } from 'react-icons/ai';
-import { DiCodeBadge, DiCss3Full, DiCssdeck } from 'react-icons/di';
+import { AiFillAlert, AiFillFacebook, AiFillInstagram, AiFillTwitterCircle } from 'react-icons/ai';
 import Image from 'next/image'
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
@@ -11,7 +10,6 @@ const Header = () =>  (
     <Div1 style={{width: '80%', height: '80%', position: 'relative'}}>
       <Image 
        alt='Metana'
-       
        layout='fill'
        objectFit='contain'
       src='/images/METANA_COIN_LOOP.gif'/>     
